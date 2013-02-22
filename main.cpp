@@ -84,9 +84,8 @@ int main()
 	SDL_Surface *score_surface;
 
 	SDL_Surface *window = SDL_SetVideoMode(G_WIDTH * CELL_SIZE,
-														(G_HEIGHT * CELL_SIZE) + 25,
-														32,
-														SDL_HWSURFACE | SDL_DOUBLEBUF);
+	                                      (G_HEIGHT * CELL_SIZE) + 25,32,
+				              SDL_HWSURFACE | SDL_DOUBLEBUF);
 
 
 	Uint32 bgColor = SDL_MapRGB(window->format, 0, 0, 0);
